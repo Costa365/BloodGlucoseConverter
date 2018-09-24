@@ -38,8 +38,8 @@ class Conv extends Component {
   render() {
     return (
       <div className="Conv">
-        <p>mg/dL: <input type="text" value={this.state.valueMg} onChange={this.handleChangeMg} /></p>
-        <p>mmol/L: <input type="text" value={this.state.valueMm} onChange={this.handleChangeMm} /></p>
+        <p><label>mg/dL:</label><input type="text" value={this.state.valueMg} onChange={this.handleChangeMg} /></p>
+        <p><label>mmol/L:</label><input type="text" value={this.state.valueMm} onChange={this.handleChangeMm} /></p>
       </div>
     );
   }
