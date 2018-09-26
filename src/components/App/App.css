@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  display: block;
+  width: 400px;
+  padding: 1px 1px 1px 1px;
+  margin: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: #E9184D;
+  border-width: 2px;
 }
 
 .App-header {

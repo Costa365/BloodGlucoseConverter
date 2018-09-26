@@ -14,15 +14,30 @@ class Conv extends Component {
   }
 
   convertMgToMm(value) {
-    return value/this.conversionFactor;
+    if(value===''){
+      return '';
+    } 
+    else {
+      return value/this.conversionFactor;
+    }
   }
 
   convertMmToMg(value) {
-    return value*this.conversionFactor;
+    if(value===''){
+      return '';
+    } 
+    else {
+      return value*this.conversionFactor;
+    }
   }
 
   formatNumber(value) {
-    return Math.round(value * 1000) / 1000;
+    if(value==='' || isNaN(value)){
+      return '';
+    } 
+    else {
+      return Math.round(value * 1000) / 1000;
+    }
   }
 
   handleChangeMg(event) {
