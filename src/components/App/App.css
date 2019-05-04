@@ -1,32 +1,25 @@
 .App {
-  text-align: center;
-  display: block;
-  width: 350px;
-  padding: 1px 1px 1px 1px;
-  margin: 2px 2px 2px 2px;
-  border-style: solid;
-  border-color: #E9184D;
-  border-width: 2px;
+  text-align: left;
 }
 
 .App-header {
-  background-color: #222;
-  height: 50px;
+  background-color: #111;
+  height: 30px;
   padding: 10px;
   color: white;
   font-size: 1.5em;
-  justify-content: center;
+  justify-content: left;
   display: flex;
   align-items: center;
 }
 
 .App-logo {
-  height: 50px;
+  height: 44px;
   margin-right: 10px;
 }
 
 .App-footer {
-  background-color: #E9184D;
+  background-color: #111;
   height: 17px;
   padding: 2px;
   color: white;
