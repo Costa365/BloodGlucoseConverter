@@ -1,6 +1,6 @@
 # Blood Glucose Converter
 
-Simple React.js appliction that converts between and mg/dL and mmol/L. Hosted at [http://bloodglucoseconverter.co.nf/](http://bloodglucoseconverter.co.nf/)
+Simple React.js appliction that converts between and mg/dL and mmol/L. Hosted at [http://costa365.rf.gd/bloodglucoseconverter/](http://costa365.rf.gd/bloodglucoseconverter/)
 
 ## How this applicaion was made
 
